@@ -10,7 +10,5 @@ namespace Gallery.Core.Domain
     {
         public int Id { get; set; }
         public string Form {  get; set; }
-        public string Genre { get; set; }
-        public string Era { get; set; }
     }
 }
