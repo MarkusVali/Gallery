@@ -10,7 +10,7 @@ namespace Gallery.Core.Domain
     public class Artwork
     {
         [Key]
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string FullName { get; set; }
         public string Description { get; set; }
         public int? ArtistId { get; set; }

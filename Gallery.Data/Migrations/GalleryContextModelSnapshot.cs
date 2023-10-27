@@ -24,9 +24,11 @@ namespace Gallery.Data.Migrations
 
             modelBuilder.Entity("Gallery.Core.Domain.Artist", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
@@ -40,19 +42,20 @@ namespace Gallery.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MiddleName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Artists");
+                    b.ToTable("Artist");
                 });
 
             modelBuilder.Entity("Gallery.Core.Domain.Artwork", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<int?>("ArtistId")
                         .HasColumnType("int");
@@ -73,14 +76,16 @@ namespace Gallery.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Artworks");
+                    b.ToTable("Artwork");
                 });
 
             modelBuilder.Entity("Gallery.Core.Domain.ArtworkType", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Era")
                         .IsRequired()
@@ -96,14 +101,16 @@ namespace Gallery.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ArtworkTypes");
+                    b.ToTable("ArtworkType");
                 });
 
             modelBuilder.Entity("Gallery.Core.Domain.Person", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<bool>("DoesOwnArtwork")
                         .HasColumnType("bit");
@@ -121,7 +128,6 @@ namespace Gallery.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MiddleName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
@@ -130,7 +136,7 @@ namespace Gallery.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Persons");
+                    b.ToTable("Person");
                 });
 #pragma warning restore 612, 618
         }
