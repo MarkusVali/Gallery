@@ -1,0 +1,17 @@
+C:\Users\marku\source\repos\Gallery\Gallery.Data\bin\Debug\net6.0\Gallery.Data.deps.json
+C:\Users\marku\source\repos\Gallery\Gallery.Data\bin\Debug\net6.0\Gallery.Data.runtimeconfig.json
+C:\Users\marku\source\repos\Gallery\Gallery.Data\bin\Debug\net6.0\Gallery.Data.dll
+C:\Users\marku\source\repos\Gallery\Gallery.Data\bin\Debug\net6.0\Gallery.Data.pdb
+C:\Users\marku\source\repos\Gallery\Gallery.Data\bin\Debug\net6.0\Gallery.Core.dll
+C:\Users\marku\source\repos\Gallery\Gallery.Data\bin\Debug\net6.0\Gallery.Core.pdb
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.csproj.AssemblyReference.cache
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.AssemblyInfoInputs.cache
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.AssemblyInfo.cs
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.csproj.CoreCompileInputs.cache
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.csproj.CopyComplete
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.dll
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\refint\Gallery.Data.dll
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.pdb
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\Gallery.Data.genruntimeconfig.cache
+C:\Users\marku\source\repos\Gallery\Gallery.Data\obj\Debug\net6.0\ref\Gallery.Data.dll
